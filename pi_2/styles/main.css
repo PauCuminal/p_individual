@@ -8,10 +8,10 @@ html{
 
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 	border-bottom: 1px solid black;
-}
+} 
 .menu{
 	width: 100%;
-	display: flex;
+	display: flex; /* posar pk he fet servir una eina decent i no grid 🤢*/
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
@@ -46,3 +46,6 @@ html{
 button{
 	background-color: transparent;
 }
+
+/* Decoracions */
+
