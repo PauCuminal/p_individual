@@ -43,11 +43,15 @@ body{
 	cursor: pointer;
 	font-size: 3vw;
 
+	
+
 }
 .menu_btn:hover{
 	border: 1px solid transparent;
 	box-shadow:  18px -18px 35px #bebebe,
              -18px 18px 35px #ffffff;
+
+
 }
 .menu_btn:active{
 	text-decoration: none;
@@ -59,5 +63,5 @@ button{
 	background-color: transparent;
 }
 
-/* Decoracions */
+
 
