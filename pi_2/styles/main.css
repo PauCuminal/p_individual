@@ -1,31 +1,48 @@
-#title{
-	font-size: 26px;
-	line-height: 75px;
+
+
+/* PAGINA PRINCIPAL */
+html{
+	background-color: rgb(212, 212, 212);
+}
+.titol{
+
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	border-bottom: 1px solid black;
+}
+.menu{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
 }
 
-.menu-object{
-	display:block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 300px;
-	height: 75px;
-	font-size: 16px;
-	margin-top: 10px;
-}
-
-p{
+.menu_btn{
+	min-width: 25%;
 	text-align: center;
-}
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	color: black;
+	text-decoration: none;
+	border: 1px solid black;
+	margin: 1rem;
+	padding: .4rem 3rem;
+	transition-duration: 0.4s;
+	border-radius: .3rem;
+	cursor: pointer;
 
-button.menu-object:active{
-	font-size: 18px;
-	width: 275px;
-	height: 70px;
 }
-
-button.menu-object:hover:not(:active){
-	font-size: 22px;
-	width: 325px;
-	height: 85px;
+.menu_btn:hover{
+	border: 1px solid transparent;
+	box-shadow:  18px -18px 35px #bebebe,
+             -18px 18px 35px #ffffff;
 }
-
+.menu_btn:active{
+	text-decoration: none;
+}
+.menu_btn:visited{
+	text-decoration: none;
+}
+button{
+	background-color: transparent;
+}
