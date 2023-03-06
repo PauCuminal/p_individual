@@ -3,14 +3,25 @@
 /* PAGINA PRINCIPAL */
 html{
 	background-color: rgb(212, 212, 212);
+	height: 100vh;
+}
+body{
+	min-height: 100vh;
+	margin: 0;
+	padding: 0;
 }
 .titol{
-
+	position: absolute;
+	top: 1vh;
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 	border-bottom: 1px solid black;
+	margin-bottom: 5vh;
+	font-size: 5vw;
 } 
-.menu{
-	width: 100%;
+.containerCentrat{
+
+	width: 100vw;
+	height: 100vh;
 	display: flex; /* posar pk he fet servir una eina decent i no grid 🤢*/
 	flex-direction: column;
 	align-items: center;
@@ -30,6 +41,7 @@ html{
 	transition-duration: 0.4s;
 	border-radius: .3rem;
 	cursor: pointer;
+	font-size: 3vw;
 
 }
 .menu_btn:hover{
